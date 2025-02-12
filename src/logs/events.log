@@ -1,0 +1,1120 @@
+[2024-07-30 11:59:21.847 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:27:28.772 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:27:36.574 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:30:02.761 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:31:02.553 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:35:15.478 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:37:38.270 AM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.delete()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:121:28[39m
+
+[32m  118 if (!id) return res.status(404).send({ message: 'Url not found' });[39m
+[32m  119 [39m
+[32m  120 try {[39m
+[32m→ 121   await prisma.url.delete([39m
+[32mInconsistent column data: Malformed ObjectID: provided hex string representation must be exactly 12 bytes, instead got: "66a9762eb4cc4aa19a7d97a", length 23.[39m
+[2024-07-31 12:41:57.449 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:44:41.781 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:46:24.570 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:47:14.672 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:47:27.615 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:47:43.867 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:49:56.035 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:51:00.033 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:51:15.893 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:52:06.478 AM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.delete()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:124:28[39m
+
+[32m  121 if (!id) return res.status(404).send({ message: notFoundMsg });[39m
+[32m  122 [39m
+[32m  123 try {[39m
+[32m→ 124   await prisma.url.delete([39m
+[32mAn operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.[39m
+[2024-07-31 12:53:44.189 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:54:10.868 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:55:02.008 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 12:57:07.703 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 01:02:09.323 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 01:02:43.161 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 01:03:00.003 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-07-31 01:06:42.537 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 02:57:33.024 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 02:59:16.794 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 03:00:08.041 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 03:12:43.534 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 03:12:53.893 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 03:13:45.962 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-06 03:18:12.462 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 08:00:02.879 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 09:03:15.820 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 09:20:59.528 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findMany()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[32m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[32m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[32m  49   try {[39m
+[32m→ 50     const urls = await prisma.url.findMany([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:22:00.553 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findMany()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[32m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[32m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[32m  49   try {[39m
+[32m→ 50     const urls = await prisma.url.findMany([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:22:47.597 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findMany()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[32m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[32m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[32m  49   try {[39m
+[32m→ 50     const urls = await prisma.url.findMany([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:23:03.154 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findMany()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[32m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[32m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[32m  49   try {[39m
+[32m→ 50     const urls = await prisma.url.findMany([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:23:36.667 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findFirst()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:16:42[39m
+
+[32m  13 try {[39m
+[32m  14   const { url, customName } = req.body;[39m
+[32m  15 [39m
+[32m→ 16   const existingUrl = await prisma.url.findFirst([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:23:36.670 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findUnique()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:74:34[39m
+
+[32m  71 const { id } = req.params;[39m
+[32m  72 [39m
+[32m  73 try {[39m
+[32m→ 74   const url = await prisma.url.findUnique([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:23:59.756 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 09:24:21.736 PM] [32minfo[39m: [32m[39m
+[32mInvalid `prisma.url.findMany()` invocation in[39m
+[32mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[32m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[32m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[32m  49   try {[39m
+[32m→ 50     const urls = await prisma.url.findMany([39m
+[32mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:25:00.725 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 09:26:20.566 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findMany()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[31m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[31m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[31m  49   try {[39m
+[31m→ 50     const urls = await prisma.url.findMany([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:26:20.573 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findMany()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[31m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[31m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[31m  49   try {[39m
+[31m→ 50     const urls = await prisma.url.findMany([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:41:18.688 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 09:51:43.082 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:51:52.558 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:51:55.016 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:52:04.029 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:53:35.602 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:53:47.388 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:54:29.847 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:57:57.030 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:01:50.014 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:02:08.227 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:11:33.778 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:13:37.167 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:13:45.712 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:35:41[39m
+
+[31m  32 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  33 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  34 [39m
+[31m→ 35 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:17:46.904 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:18:08.304 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findFirst()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:16:42[39m
+
+[31m  13 try {[39m
+[31m  14   const { url, customName } = req.body;[39m
+[31m  15 [39m
+[31m→ 16   const existingUrl = await prisma.url.findFirst([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 10:19:31.184 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:19:47.503 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:20:21.207 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:23:36.163 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:24:56.597 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:24:57.162 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:25:59.936 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:26:26.171 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:27:02.150 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:29:36.323 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:29:58.390 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findMany()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:56:35[39m
+
+[31m  53 //  GET ALL THE URLS IN THE DATABASE[39m
+[31m  54 export const getUrls = async (req: Request, res: Response) => {[39m
+[31m  55   try {[39m
+[31m→ 56     const urls = await prisma.url.findMany([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 10:46:12.917 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:48:08.069 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:49:55.599 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 10:59:20.357 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 11:00:02.624 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 11:01:25.078 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-21 11:04:36.124 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findFirst()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:16:42[39m
+
+[31m  13 try {[39m
+[31m  14   const { url, customName } = req.body;[39m
+[31m  15 [39m
+[31m→ 16   const existingUrl = await prisma.url.findFirst([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 11:07:20.909 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 08:12:05.296 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 08:19:28.885 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:26:18.104 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:44:06.271 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:44:34.316 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:44:58.651 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:45:49.153 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:46:40.900 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:46:53.999 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:47:44.683 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:48:34.291 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:48:50.957 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:50:24.762 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:50:31.785 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:50:46.612 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:51:50.912 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 10:57:17.386 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:20:12.510 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:21:10.667 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:28:58.850 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:30:25.538 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:31:47.256 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:34:24.021 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:34:52.042 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:35:16.902 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:38:02.862 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:38:14.408 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:40:13.917 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-22 11:41:09.646 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:04:25.924 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:04:57.393 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findUnique()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:125:42[39m
+
+[31m  122 const shortUrl = `${BASE_URL}/${custom}`;[39m
+[31m  123 [39m
+[31m  124 try {[39m
+[31m→ 125   const existingUrl = await prisma.url.findUnique([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-24 10:07:41.546 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:10:37.543 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:12:02.863 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:28:19.721 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:28:29.537 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:31:13.827 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:38:16.049 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:46:45.322 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:51:37.943 PM] [31merror[39m: [31mNo Url found![39m
+[2024-08-24 10:52:41.050 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:52:53.182 PM] [31merror[39m: [31mNo Url found![39m
+[2024-08-24 10:53:09.694 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:54:04.903 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 10:54:13.180 PM] [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+[2024-08-24 11:03:46.622 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:04:31.487 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:06:44.443 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:06:51.336 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:09:56.801 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:10:13.264 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:11:31.374 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:12:25.633 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:16:14.612 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:24:55.098 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:25:34.044 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:25:49.031 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-08-24 11:28:15.718 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-08 11:56:19.344 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-08 11:56:38.270 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-09-08 11:57:04.388 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-09-08 11:57:28.731 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-09-08 11:58:06.483 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:04:07.309 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:04:55.949 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:07:09.229 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:07:13.527 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:07:30.807 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:07:30.812 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:07:54.795 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 12:08:30.929 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 12:11:00.567 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:11:00.572 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:11:04.767 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 12:15:58.871 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:15:58.884 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:19:44.478 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ id: '66de30f1ed6aadfa2aa49c3f' }" (type Object) at path "_id" for model "Url"[39m
+[2024-09-09 12:20:38.294 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:20:38.308 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:32:41.345 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:32:41.351 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:33:05.941 AM] [31merror[39m: [31mNo Url found![39m
+[2024-09-09 12:33:56.194 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:33:56.199 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:34:46.084 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:34:46.090 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 10:54:25.908 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 10:54:25.912 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:21:07.863 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 11:23:47.204 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:23:47.209 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:25:09.027 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:25:09.032 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:26:12.287 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:26:12.293 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:32:38.610 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:32:38.615 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:33:33.463 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:33:33.468 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:34:12.640 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:34:12.645 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:36:44.401 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:36:44.406 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:36:51.732 AM] [31merror[39m: [31mNo Url found![39m
+[2024-09-09 11:39:37.379 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:39:37.384 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 11:40:03.014 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 11:40:03.021 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-09 12:03:49.890 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-09 12:03:49.895 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-21 02:55:19.937 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-21 02:55:19.945 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-27 08:18:46.540 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-09-27 08:18:46.550 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-09-27 08:22:01.361 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-03 01:30:41.655 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-03 01:30:41.669 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-03 01:38:46.978 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-03 01:38:46.992 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-03 01:56:57.060 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-03 01:56:57.075 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-03 02:25:06.131 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-03 02:25:06.146 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-03 02:30:40.693 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-03 02:30:40.707 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 08:26:11.013 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-04 08:26:11.026 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 08:30:04.623 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-04 08:30:04.631 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 07:35:25.181 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-04 07:35:25.201 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 07:45:43.714 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-04 07:45:43.723 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 07:51:16.106 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-04 07:51:16.128 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 07:55:21.703 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-04 07:55:21.716 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 08:12:01.743 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-04 08:12:01.768 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-04 08:16:10.838 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-04 08:16:10.846 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-09 08:27:53.353 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-09 08:27:53.362 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-09 07:30:27.194 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-09 07:30:27.211 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-10 08:13:33.406 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:13:33.416 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-10 08:15:39.620 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:15:39.629 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-10 08:27:08.811 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:27:08.817 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-10 08:28:42.686 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-10-10 08:29:28.970 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-10-10 08:30:39.570 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-10-10 08:34:09.939 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-10-10 08:34:32.333 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-10-10 07:40:17.398 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-10 07:40:17.413 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2024-10-10 07:57:23.409 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-10 07:57:23.440 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-10-25 12:07:45.124 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:08:25.766 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:17:17.907 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:23:40.341 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:27:15.566 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:27:29.331 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:28:09.481 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:28:33.112 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:32:27.786 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:36:35.931 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:36:45.983 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:37:05.954 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:39:29.747 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:40:00.298 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:43:15.221 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:44:34.679 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:50:12.404 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:53:44.970 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:53:51.640 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:54:30.542 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 12:54:47.231 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 01:00:15.260 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 01:03:18.402 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 01:06:14.270 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 01:07:18.634 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 01:16:55.843 AM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-25 01:16:55.849 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-10-25 01:17:15.475 AM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-25 01:17:15.481 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-10-25 01:17:29.117 AM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-25 01:17:29.124 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-10-25 08:02:55.205 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-10-25 08:02:55.224 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-10-25 09:04:01.141 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 09:16:12.953 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-10-25 09:16:31.594 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 07:52:30.094 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 07:52:42.332 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 07:52:56.007 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 07:53:10.707 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:04:46.858 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:05:02.548 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:05:35.099 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:05:47.775 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:06:04.953 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:07:11.269 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:09:48.690 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:10:30.297 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:11:36.613 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:12:33.473 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:17:13.830 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:17:32.906 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:18:35.398 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:18:58.340 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:23:14.736 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:25:06.232 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:26:01.993 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:27:31.555 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:27:49.881 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:28:41.568 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:29:01.000 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:29:33.487 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:30:10.426 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:30:30.637 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:31:51.175 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:33:56.491 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:34:46.113 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:35:29.464 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:35:54.007 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:36:18.334 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-04 08:38:22.158 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-07 08:26:52.257 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-07 08:34:31.400 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-11-07 08:34:31.405 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-07 07:35:20.173 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-11-07 07:35:20.195 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-07 07:36:22.711 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-08 10:15:38.381 AM] [31merror[39m: [31mError Connecting to MongoDB: MongooseServerSelectionError: connect ECONNREFUSED 172.18.0.2:27017[39m
+[2024-11-08 10:15:38.400 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-08 10:16:09.776 AM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-11-08 10:18:47.190 AM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-11-08 10:19:09.699 AM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-11-08 10:26:18.171 AM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-11-11 06:43:16.652 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-11-11 06:43:16.665 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-11 06:45:34.949 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 06:46:13.809 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 06:46:36.381 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 06:46:37.696 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 07:55:10.961 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 07:56:07.554 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:00:19.206 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:00:46.354 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:02:16.112 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:03:05.253 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:03:11.604 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:03:36.370 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:05:55.134 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:06:17.861 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:06:29.828 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:06:41.505 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:07:27.293 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:07:39.907 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:07:56.653 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:08:35.088 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 07:09:45.122 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "casting" }[39m
+[2024-11-11 08:10:18.431 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 07:11:17.956 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "casting" }[39m
+[2024-11-11 07:11:19.440 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "casting" }[39m
+[2024-11-11 08:15:58.782 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:16:18.289 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:16:27.045 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:17:41.237 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 08:18:37.838 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:05:34.355 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:06:12.904 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:06:22.794 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:06:47.911 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:07:24.592 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:07:38.139 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:08:37.412 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:10:08.999 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:10:40.900 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:11:05.884 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-11 09:11:29.996 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:28:28.473 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-11-21 10:28:28.489 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-21 09:31:12.847 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-11-21 09:31:12.859 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-21 10:43:13.179 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:46:55.919 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:48:31.444 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:49:10.030 PM] [31merror[39m: [31mconnect ECONNREFUSED ::1:27018, connect ECONNREFUSED 127.0.0.1:27018[39m
+[2024-11-21 10:49:31.450 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:51:15.654 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:53:00.720 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:53:07.401 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:07.494 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:31.393 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 10:53:38.343 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:38.443 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:38.595 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 10:56:07.197 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:00:00.321 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:00:47.947 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:04:36.355 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:04:58.501 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:07:16.832 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:09:05.652 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:10:04.826 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:10:11.487 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:11.572 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:11.711 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:48.560 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:10:55.116 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:55.203 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:55.352 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:09.624 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:12:16.129 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:16.242 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:16.377 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:19.130 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:12:25.941 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:26.061 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:26.234 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:14:55.602 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:15:48.586 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:17:24.635 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:17:37.812 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:17:48.479 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:18:16.069 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:18:23.288 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.329 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.410 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.448 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.574 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:18:23.581 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.642 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.686 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:25.008 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:18:30.751 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.791 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.890 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.935 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:31.053 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:18:31.059 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:31.108 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:31.143 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:15.237 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:19:21.463 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.500 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.569 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.604 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.714 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:19:21.720 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.770 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.800 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:57.883 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:20:04.199 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.250 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.314 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.358 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.489 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:20:04.496 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.555 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.592 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:47.154 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:23:57.500 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.545 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.613 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.657 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.794 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:23:57.804 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.860 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.939 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:09.242 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:24:17.899 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:17.937 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.010 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.052 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.175 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:24:18.184 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.265 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.325 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:29.270 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:24:35.967 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.011 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.080 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.119 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.235 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:24:36.242 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.305 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.344 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:05.466 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:27:14.301 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.345 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.429 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.473 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.601 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:27:14.608 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.664 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.702 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:26.701 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:32:36.562 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.616 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.703 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.748 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.874 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:32:36.879 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.935 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.971 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:39.848 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:34:49.067 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.108 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.177 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.216 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.338 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:34:49.344 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.403 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.445 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:37.803 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:35:46.913 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:46.963 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.054 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.094 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.249 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:35:47.255 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.306 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.341 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:19.384 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:36:28.916 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:28.984 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.103 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.163 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.299 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:36:29.306 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.356 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.389 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:38.164 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:36:46.025 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.100 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.186 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.228 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.383 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:36:46.392 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.462 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.503 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:27.903 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:37:35.315 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.367 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.438 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.479 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.607 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:37:35.615 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.675 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.714 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:49.126 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:38:58.714 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.754 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.820 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.857 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.970 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:38:58.977 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:59.043 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:59.095 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:42.982 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:42:52.249 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.298 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.376 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.418 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.561 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:42:52.570 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.634 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.678 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:33.944 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:43:42.915 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:42.957 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.027 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.064 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.183 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:43:43.190 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.242 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.277 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:07.214 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:44:15.022 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.069 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.149 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.192 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.329 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:44:15.337 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.399 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.460 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:46.042 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:45:54.463 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.508 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.584 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.624 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.744 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:45:54.750 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.804 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.840 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:14.808 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:46:22.403 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.455 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.536 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.580 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.711 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:46:22.718 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.780 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.821 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:55.275 PM] [31merror[39m: [31mconnect ECONNREFUSED ::1:27018, connect ECONNREFUSED 127.0.0.1:27018[39m
+[2024-11-21 11:47:12.147 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:47:19.320 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.380 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.461 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.506 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.642 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:47:19.650 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.712 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.755 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:29.898 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:50:39.773 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:39.850 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:39.887 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:40.003 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:50:40.011 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:40.063 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:40.101 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:10.137 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:51:19.658 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.731 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.768 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.883 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:51:19.888 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.939 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.973 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:33.530 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:51:42.799 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:42.870 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:42.921 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:43.065 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:51:43.071 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:43.122 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:43.162 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:52:52.164 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:53:01.373 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.446 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.484 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.630 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:53:01.639 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.703 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.748 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:21.398 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:55:18.259 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:55:28.889 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:28.965 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.009 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.142 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:55:29.148 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.206 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.244 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:54.747 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:56:04.344 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.450 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.508 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.661 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:56:04.669 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.721 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.759 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:14.327 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:57:23.234 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.309 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.348 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.458 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:57:23.464 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.516 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.552 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:37.982 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-21 11:57:46.992 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.073 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.119 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.238 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:57:47.244 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.297 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.337 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 08:53:01.953 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-11-24 08:53:01.962 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-11-24 09:53:42.421 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 09:53:48.483 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.553 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.589 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.696 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 09:53:48.702 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.753 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.790 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:25:49.184 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:25:56.610 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:26:01.729 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.794 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.828 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.929 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:26:01.934 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.976 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:02.010 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:23.382 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:28:51.493 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:29:05.032 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:29:08.360 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:30:42.664 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:30:52.846 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:31:01.590 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:34:22.679 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:34:28.001 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.060 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.092 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.183 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:34:28.189 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.230 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.259 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:23.936 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:35:29.351 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:35:29.390 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.451 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.483 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.582 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:35:29.587 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.627 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.657 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:38:37.325 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:40:24.483 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:40:50.163 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:40:55.868 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:40:55.912 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:55.971 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.002 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.102 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:40:56.107 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.150 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.181 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:20.503 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:44:26.315 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:44:26.363 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.422 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.454 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.551 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:44:26.557 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.602 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.631 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:45:01.175 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:45:06.361 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:46:38.126 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:46:43.747 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:46:47.913 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:46:53.287 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:48:21.708 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:48:27.029 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:48:48.797 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:48:53.808 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:49:20.921 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:49:26.312 AM] [32minfo[39m: [32mResponse from POST:[39m
+[2024-11-24 11:49:33.838 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:51:29.652 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:52:07.538 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:59:37.498 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 11:59:45.923 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.012 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.054 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.182 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:59:46.189 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.247 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.285 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:02:38.531 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:02:45.521 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:03:34.007 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:03:40.116 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:08:02.369 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:09:12.931 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:09:20.410 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:09:25.802 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:09:32.305 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:13:33.678 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:13:40.237 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:15:42.434 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:15:49.595 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:18:13.100 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:18:19.672 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:20:15.727 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:20:22.989 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:21:56.288 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:22:04.162 PM] [31merror[39m: [31mCast to ObjectId failed for value "id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:22:46.679 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:23:15.931 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:23:53.858 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:24:49.510 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:26:01.615 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:26:38.582 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:26:45.087 PM] [31merror[39m: [31mCast to ObjectId failed for value "67430d0703577aa545e2f79" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:27:22.014 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:27:54.221 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:28:00.871 PM] [31merror[39m: [31mCast to ObjectId failed for value "67430d0703577aa545e2f79h" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:28:13.960 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:28:29.551 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:28:35.950 PM] [31merror[39m: [31mCast to ObjectId failed for value "67430d0703577aa545e2f79ab" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:28:50.035 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '67430d0703577aa545e2f79ab' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:29:08.218 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '67430d0703577aa545e2f79h' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:30:13.590 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '67430d0703577aa545e2f79ab' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:31:33.501 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:31:49.973 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:33:04.156 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:33:33.604 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:34:38.438 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:35:18.444 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:39:51.522 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:39:57.034 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:39:57.087 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:39:57.208 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 12:39:57.213 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:40:10.193 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:40:15.939 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:40:15.982 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:40:16.090 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 12:40:16.096 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:41:04.796 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:41:29.517 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:42:44.344 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:43:55.135 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:44:34.055 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:45:01.963 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:45:52.575 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:48:13.844 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:50:06.833 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:50:39.804 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:53:21.611 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:55:55.030 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:58:13.140 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:58:18.902 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:59:14.746 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 12:59:20.591 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-24 12:59:38.205 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:01:42.923 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:03:33.656 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:04:20.217 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:05:20.901 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:07:42.199 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:10:28.749 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:10:34.854 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existing-name" }[39m
+[2024-11-24 01:11:48.221 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:11:53.419 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existing-name" }[39m
+[2024-11-24 01:16:49.793 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:17:46.205 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:19:03.121 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:21:49.589 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:26:33.648 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:56:56.427 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 01:57:02.928 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-24 01:57:03.052 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existing-name" }[39m
+[2024-11-24 02:00:52.061 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 02:01:37.601 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 02:06:03.669 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-24 09:39:29.357 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:00:21.881 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:03:07.727 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:03:41.704 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:51:33.578 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:53:06.066 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:54:18.646 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 12:56:12.471 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:04:39.584 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:05:44.504 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:10:05.705 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:12:16.908 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:13:40.397 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:13:47.012 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-25 01:14:27.455 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:15:22.858 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:15:38.157 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:15:48.640 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:15:59.003 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:16:09.265 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:16:14.855 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-25 01:16:20.103 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:16:30.418 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:16:47.651 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-11-25 01:16:53.849 PM] [31merror[39m: [31mNo Url found![39m
+[2024-12-11 08:07:32.968 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-12-11 08:07:41.832 PM] [31merror[39m: [31mNo Url found![39m
+[2024-12-11 08:08:01.822 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-12-11 08:08:08.731 PM] [31merror[39m: [31mNo Url found![39m
+[2024-12-11 08:08:57.535 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-12-11 08:08:57.544 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-12-11 07:09:29.234 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-12-11 07:09:29.249 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-12-11 07:26:25.378 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2024-12-11 07:26:25.388 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8000[39m
+[2024-12-11 09:29:35.980 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2024-12-11 09:29:48.528 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-13 12:36:56.867 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2025-02-13 12:36:56.876 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2025-02-13 12:41:54.391 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2025-02-13 12:41:54.400 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m

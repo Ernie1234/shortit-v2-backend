@@ -1,0 +1,559 @@
+[2024-08-21 09:26:20.566 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findMany()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[31m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[31m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[31m  49   try {[39m
+[31m→ 50     const urls = await prisma.url.findMany([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:26:20.573 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findMany()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:50:35[39m
+
+[31m  47 //  GET ALL THE URLS IN THE DATABASE[39m
+[31m  48 export const getUrls = async (req: Request, res: Response) => {[39m
+[31m  49   try {[39m
+[31m→ 50     const urls = await prisma.url.findMany([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 09:51:43.082 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:51:52.558 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:51:55.016 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:52:04.029 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:53:35.602 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:53:47.388 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 09:54:29.847 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:02:08.227 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:11:33.778 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:13:45.712 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:35:41[39m
+
+[31m  32 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  33 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  34 [39m
+[31m→ 35 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:18:08.304 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findFirst()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:16:42[39m
+
+[31m  13 try {[39m
+[31m  14   const { url, customName } = req.body;[39m
+[31m  15 [39m
+[31m→ 16   const existingUrl = await prisma.url.findFirst([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 10:19:47.503 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:20:21.207 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:24:56.597 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:24:57.162 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:26:26.171 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.create()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:33:41[39m
+
+[31m  30 const shortUrl = custom ? `${BASE_URL}/${custom}` : `${BASE_URL}/${urlString}`;[39m
+[31m  31 const customNameUrl = custom ? `${custom}` : '';[39m
+[31m  32 [39m
+[31m→ 33 const shortenUrl = await prisma.url.create([39m
+[31mUnique constraint failed on the constraint: `Url_customName_key`[39m
+[2024-08-21 10:29:58.390 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findMany()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:56:35[39m
+
+[31m  53 //  GET ALL THE URLS IN THE DATABASE[39m
+[31m  54 export const getUrls = async (req: Request, res: Response) => {[39m
+[31m  55   try {[39m
+[31m→ 56     const urls = await prisma.url.findMany([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-21 11:04:36.124 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findFirst()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:16:42[39m
+
+[31m  13 try {[39m
+[31m  14   const { url, customName } = req.body;[39m
+[31m  15 [39m
+[31m→ 16   const existingUrl = await prisma.url.findFirst([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-24 10:04:57.393 PM] [31merror[39m: [31m[39m
+[31mInvalid `prisma.url.findUnique()` invocation in[39m
+[31mC:\Users\THINKPAD E14\OneDrive\Desktop\Programming\web apps\shortit\src\controllers\url-controller.ts:125:42[39m
+
+[31m  122 const shortUrl = `${BASE_URL}/${custom}`;[39m
+[31m  123 [39m
+[31m  124 try {[39m
+[31m→ 125   const existingUrl = await prisma.url.findUnique([39m
+[31mError in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})[39m
+[2024-08-24 10:51:37.943 PM] [31merror[39m: [31mNo Url found![39m
+[2024-08-24 10:52:53.182 PM] [31merror[39m: [31mNo Url found![39m
+[2024-08-24 10:54:13.180 PM] [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+[2024-09-08 11:56:38.270 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-09-08 11:57:04.388 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-09-08 11:57:28.731 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-09-09 12:07:54.795 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 12:08:30.929 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 12:11:04.767 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 12:19:44.478 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ id: '66de30f1ed6aadfa2aa49c3f' }" (type Object) at path "_id" for model "Url"[39m
+[2024-09-09 12:33:05.941 AM] [31merror[39m: [31mNo Url found![39m
+[2024-09-09 11:21:07.863 AM] [31merror[39m: [31mUrl validation failed: customName: Path `customName` (``) is shorter than the minimum allowed length (5).[39m
+[2024-09-09 11:36:51.732 AM] [31merror[39m: [31mNo Url found![39m
+[2024-10-04 08:26:11.013 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-04 08:30:04.623 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-09 08:27:53.353 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:13:33.406 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:15:39.620 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:27:08.811 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-10 08:28:42.686 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-10-10 08:29:28.970 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-10-10 08:30:39.570 PM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-10-10 08:34:09.939 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-10-10 08:34:32.333 PM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-10-25 01:16:55.843 AM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-25 01:17:15.475 AM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-10-25 01:17:29.117 AM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-11-07 08:34:31.400 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-11-07 07:36:22.711 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-08 10:15:38.381 AM] [31merror[39m: [31mError Connecting to MongoDB: MongooseServerSelectionError: connect ECONNREFUSED 172.18.0.2:27017[39m
+[2024-11-08 10:16:09.776 AM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-11-08 10:18:47.190 AM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-11-08 10:19:09.699 AM] [31merror[39m: [31mOperation `urls.findOne()` buffering timed out after 10000ms[39m
+[2024-11-08 10:26:18.171 AM] [31merror[39m: [31mOperation `urls.find()` buffering timed out after 10000ms[39m
+[2024-11-11 06:45:34.949 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 06:46:13.809 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 06:46:36.381 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 06:46:37.696 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "god-of-glory" }[39m
+[2024-11-11 07:09:45.122 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "casting" }[39m
+[2024-11-11 07:11:17.956 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "casting" }[39m
+[2024-11-11 07:11:19.440 PM] [31merror[39m: [31mE11000 duplicate key error collection: cluster0.urls index: customName_1 dup key: { customName: "casting" }[39m
+[2024-11-21 10:28:28.473 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-11-21 10:49:10.030 PM] [31merror[39m: [31mconnect ECONNREFUSED ::1:27018, connect ECONNREFUSED 127.0.0.1:27018[39m
+[2024-11-21 10:53:07.401 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:07.494 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:38.343 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:38.443 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 10:53:38.595 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:11.487 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:11.572 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:11.711 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:55.116 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:55.203 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:10:55.352 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:16.129 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:16.242 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:16.377 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:25.941 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:26.061 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:12:26.234 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.288 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.329 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.410 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.448 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.574 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:18:23.581 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.642 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:23.686 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.751 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.791 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.890 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:30.935 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:31.053 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:18:31.059 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:31.108 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:18:31.143 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.463 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.500 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.569 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.604 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.714 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:19:21.720 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.770 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:19:21.800 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.199 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.250 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.314 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.358 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.489 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:20:04.496 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.555 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:20:04.592 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.500 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.545 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.613 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.657 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.794 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:23:57.804 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.860 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:23:57.939 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:17.899 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:17.937 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.010 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.052 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.175 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:24:18.184 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.265 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:18.325 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:35.967 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.011 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.080 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.119 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.235 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:24:36.242 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.305 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:24:36.344 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.301 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.345 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.429 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.473 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.601 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:27:14.608 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.664 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:27:14.702 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.562 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.616 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.703 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.748 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.874 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:32:36.879 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.935 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:32:36.971 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.067 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.108 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.177 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.216 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.338 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:34:49.344 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.403 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:34:49.445 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:46.913 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:46.963 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.054 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.094 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.249 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:35:47.255 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.306 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:35:47.341 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:28.916 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:28.984 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.103 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.163 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.299 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:36:29.306 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.356 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:29.389 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.025 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.100 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.186 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.228 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.383 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:36:46.392 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.462 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:36:46.503 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.315 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.367 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.438 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.479 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.607 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:37:35.615 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.675 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:37:35.714 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.714 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.754 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.820 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.857 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:58.970 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:38:58.977 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:59.043 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:38:59.095 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.249 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.298 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.376 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.418 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.561 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:42:52.570 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.634 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:42:52.678 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:42.915 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:42.957 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.027 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.064 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.183 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:43:43.190 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.242 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:43:43.277 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.022 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.069 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.149 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.192 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.329 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:44:15.337 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.399 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:44:15.460 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.463 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.508 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.584 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.624 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.744 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:45:54.750 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.804 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:45:54.840 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.403 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.455 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.536 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.580 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.711 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:46:22.718 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.780 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:22.821 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:46:55.275 PM] [31merror[39m: [31mconnect ECONNREFUSED ::1:27018, connect ECONNREFUSED 127.0.0.1:27018[39m
+[2024-11-21 11:47:19.320 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.380 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.461 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.506 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.642 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:47:19.650 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.712 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:47:19.755 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:39.773 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:39.850 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:39.887 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:40.003 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:50:40.011 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:40.063 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:50:40.101 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.658 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.731 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.768 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.883 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:51:19.888 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.939 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:19.973 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:42.799 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:42.870 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:42.921 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:43.065 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:51:43.071 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:43.122 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:51:43.162 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.373 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.446 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.484 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.630 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:53:01.639 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.703 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:53:01.748 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:28.889 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:28.965 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.009 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.142 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:55:29.148 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.206 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:55:29.244 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.344 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.450 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.508 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.661 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:56:04.669 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.721 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:56:04.759 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.234 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.309 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.348 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.458 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:57:23.464 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.516 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:23.552 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:46.992 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.073 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.119 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.238 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-21 11:57:47.244 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.297 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-21 11:57:47.337 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.483 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.553 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.589 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.696 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 09:53:48.702 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.753 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 09:53:48.790 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.729 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.794 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.828 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.929 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:26:01.934 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:01.976 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:26:02.010 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.001 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.060 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.092 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.183 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:34:28.189 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.230 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:34:28.259 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.390 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.451 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.483 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.582 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:35:29.587 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.627 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:35:29.657 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:55.912 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:55.971 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.002 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.102 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:40:56.107 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.150 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:40:56.181 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.363 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.422 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.454 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.551 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:44:26.557 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.602 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:44:26.631 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:45.923 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.012 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.054 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.182 AM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 11:59:46.189 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.247 AM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:59:46.285 AM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:02:45.521 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:03:40.116 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:09:20.410 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:09:32.305 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:13:40.237 PM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'nonexistent-id' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:15:49.595 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:18:19.672 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:20:22.989 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:22:04.162 PM] [31merror[39m: [31mCast to ObjectId failed for value "id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:26:45.087 PM] [31merror[39m: [31mCast to ObjectId failed for value "67430d0703577aa545e2f79" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:28:00.871 PM] [31merror[39m: [31mCast to ObjectId failed for value "67430d0703577aa545e2f79h" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:28:35.950 PM] [31merror[39m: [31mCast to ObjectId failed for value "67430d0703577aa545e2f79ab" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 11:28:50.035 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '67430d0703577aa545e2f79ab' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:29:08.218 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '67430d0703577aa545e2f79h' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 11:30:13.590 AM] [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '67430d0703577aa545e2f79ab' }" (type Object) at path "_id" for model "Url"[39m
+[2024-11-24 12:39:57.034 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:39:57.087 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:39:57.208 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 12:39:57.213 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:40:15.939 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:40:15.982 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:40:16.090 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existingName" }[39m
+[2024-11-24 12:40:16.096 PM] [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:58:18.902 PM] [31merror[39m: [31mCast to ObjectId failed for value "nonexistent-id" (type string) at path "_id" for model "Url"[39m
+[2024-11-24 12:59:20.591 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-24 01:10:34.854 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existing-name" }[39m
+[2024-11-24 01:11:53.419 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existing-name" }[39m
+[2024-11-24 01:57:02.928 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-24 01:57:03.052 PM] [31merror[39m: [31mE11000 duplicate key error collection: testdb.urls index: customName_1 dup key: { customName: "existing-name" }[39m
+[2024-11-25 01:13:47.012 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-25 01:16:14.855 PM] [31merror[39m: [31mNo Url found![39m
+[2024-11-25 01:16:53.849 PM] [31merror[39m: [31mNo Url found![39m
+[2024-12-11 08:07:41.832 PM] [31merror[39m: [31mNo Url found![39m
+[2024-12-11 08:08:08.731 PM] [31merror[39m: [31mNo Url found![39m
+[2024-12-11 08:08:57.535 PM] [31merror[39m: [31mError Connecting to MongoDB: MongoRuntimeError: Unable to parse mongo:${MONGO_PORT} with URL[39m
+[2024-12-11 09:29:48.528 PM] [31merror[39m: [31mNo Url found![39m
