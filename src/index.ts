@@ -1,5 +1,5 @@
 import cors from 'cors';
-import express from 'express';
+import express, { Request, Response } from 'express';
 
 import routes from './routes';
 import connectDb from './config/connect';
@@ -15,6 +15,13 @@ export const main = async () => {
     app.use(cors());
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
+
+    app.get('/', (req: Request, res: Response) => {
+      res.send('Welcome to Express & TypeScript Server');
+    });
+    app.get('/healths', (req: Request, res: Response) => {
+      res.send('Working in good health');
+    });
 
     app.use('/api/v2/', routes);
 

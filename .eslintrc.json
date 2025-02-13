@@ -3,6 +3,7 @@
     "browser": true,
     "es2021": true,
     "jest/globals": true,
+     "commonjs": true,
     "jest": true
   },
   "extends": [
@@ -21,7 +22,7 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "jest"],
+  "plugins": ["@typescript-eslint", "jest","unicorn", "sonarjs"],
   "rules": {
     "unicorn/filename-case": "off",
     "import/prefer-default-export": "off",
@@ -34,5 +35,12 @@
     "@typescript-eslint/lines-between-class-members": "off",
     "@typescript-eslint/no-namespace": "off",
     "no-underscore-dangle": "off"
+  },
+   "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"]
+      }
+    }
   }
 }

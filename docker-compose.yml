@@ -1,0 +1,32 @@
+services:
+  mongo:
+    container_name: 'shortit_backend_db'
+    image: 'mongo'
+    restart: unless-stopped
+    ports:
+      - ${MONGO_PORT}:27017
+    env_file:
+      - .env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+    volumes:
+      - ./data:/data/db
+  server:
+    container_name: 'shortit_backend_api'
+    build:
+      dockerfile: Dockerfile
+      context: .
+    depends_on:
+      - mongo
+    env_file:
+      - .env
+    expose:
+      - ${PORT}
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - ./src:/usr/app/src
+      - ./src:/app/src
+      - ./nodemon.json:/app/nodemon.json
+      
