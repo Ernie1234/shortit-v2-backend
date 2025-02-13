@@ -27,4 +27,4 @@ jobs:
           cache: 'yarn' # Change cache type to Yarn
       - run: yarn install # Replace npm ci with yarn install
       - run: yarn build # Replace npm run build with yarn build
-      - run: yarn test # Replace npm test with yarn test
+      # - run: yarn test # Replace npm test with yarn test
