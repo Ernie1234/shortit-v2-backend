@@ -46,7 +46,7 @@ export class TestFactory {
       this._app = express();
       this._app.use(express.json());
       this._app.use(express.urlencoded({ extended: true }));
-      this._app.use('/api/v1', routes);
+      this._app.use('/api/v2', routes);
       this._server = createServer(this._app).listen(3010);
     } catch (error) {
       // eslint-disable-next-line no-console

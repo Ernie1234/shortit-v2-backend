@@ -8,8 +8,8 @@ export default {
   testEnvironment: 'node',
   // Set a longer timeout for tests running in CI environments to accommodate potentially slower performance.
   // Use a shorter timeout for local development to catch issues more quickly.
-  // testTimeout: process.env.CI ? 120_000 : 12_000,
-  timers: 'real',
+  testTimeout: process.env.CI ? 120_000 : 12_000,
+  // timers: 'real',
   transform: {
     '^.+\\.ts$': 'ts-jest'
   },

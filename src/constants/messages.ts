@@ -8,6 +8,7 @@ export const fetchedSuccessMsg = 'Fetched successfully!';
 export const noUserMsg = 'No User found!';
 export const noCommodityMsg = 'Commodity not found';
 export const InsufficientCommodityMsg = 'Insufficient commodity quantity';
+export const notFoundMsg = 'No Url found!';
 
 export const userAlreadyExist = 'User already exists';
 export const commodityExistMsg = 'Commodity with this name already exists';
