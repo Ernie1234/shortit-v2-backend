@@ -1,4 +1,5 @@
 export const createdMsg = 'User created successfully';
+export const urlCreatedMsg = 'Url shortened successfully';
 export const successUserMsg = 'User successfully fetched';
 export const successCommodityMsg = 'Commodity fetched successfully!';
 export const successMsg = 'Successful!';

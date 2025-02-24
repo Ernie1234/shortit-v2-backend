@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-import { createdMsg, notFoundMsg } from '../constants/messages';
+import { notFoundMsg, urlCreatedMsg } from '../constants/messages';
 import HTTP_STATUS from '../utils/http-status';
 import logger from '../logs/logger';
 import {
@@ -44,7 +44,7 @@ export const createUrl = async (req: Request, res: Response) => {
       shortUrl: shortenUrl.shortUrl
     };
 
-    return res.status(HTTP_STATUS.CREATED).json({ message: createdMsg, data });
+    return res.status(HTTP_STATUS.CREATED).json({ message: urlCreatedMsg, data });
   } catch (error) {
     logger.error(error);
     return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).send({ message: 'Error adding url' });

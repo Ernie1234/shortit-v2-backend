@@ -4,7 +4,7 @@ import { getUpdateParams } from '../utils/short-url-generator';
 import HTTP_STATUS from '../utils/http-status';
 import { notFoundMsg } from '../constants/messages';
 import logger from '../logs/logger';
-import { postUrlSchema, updateUrlSchema } from '@src/utils/validators/url-validator';
+import { postUrlSchema, updateUrlSchema } from '../utils/validators/url-validator';
 
 const formatJoiError = (error: Joi.ValidationError) => {
   const formattedError: { [key: string]: string } = {};

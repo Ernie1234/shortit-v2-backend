@@ -559,3 +559,33 @@
 [2024-12-11 09:29:48.528 PM] [31merror[39m: [31mNo Url found![39m
 [2025-02-13 02:49:05.457 PM] [31merror[39m: [31mError Connecting to MongoDB: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
 [2025-02-13 02:53:01.687 PM] [31merror[39m: [31mError Connecting to MongoDB: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+[2025-02-24 09:23:55.156 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:24:10.270 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:24:31.797 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:24:59.097 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:27:39.795 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:29:21.038 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:31:21.842 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:31:47.232 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:48:14.886 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:49:30.063 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:50:08.121 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:53:07.083 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:53:45.141 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:57:19.867 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:00:22.665 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:03:17.036 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:03:43.674 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:04:05.388 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:10:20.389 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:12:59.503 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:13:24.524 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:14:40.461 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:14:53.982 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:15:55.031 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:18:54.028 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:19:19.197 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:20:04.590 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:20:29.206 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:20:53.060 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:21:15.541 PM] [31merror[39m: [31mNo Url found![39m

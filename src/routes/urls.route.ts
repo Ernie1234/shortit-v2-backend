@@ -1,11 +1,11 @@
 import { Router } from 'express';
 
-import { createUrl, deleteUrl, getUrl, getUrls, updateUrl } from '@src/controllers/urls.controller';
+import { createUrl, deleteUrl, getUrl, getUrls, updateUrl } from '../controllers/urls.controller';
 import {
   validatePostUrl,
   validateUpdateRequest,
   validateUpdateUrl
-} from '@src/middleware/url-validator';
+} from '../middleware/url-validator';
 
 const router = Router();
 

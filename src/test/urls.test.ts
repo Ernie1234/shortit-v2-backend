@@ -71,6 +71,7 @@ describe('GET /urls', () => {
 
   beforeEach(async () => {
     await factory.init();
+    await Url.deleteMany({});
   });
 
   afterEach(async () => {
@@ -102,6 +103,7 @@ describe('GET /urls/:id', () => {
 
   beforeEach(async () => {
     await factory.init();
+    await Url.deleteMany({});
   });
 
   afterEach(async () => {
@@ -112,6 +114,8 @@ describe('GET /urls/:id', () => {
     const res = await factory.app.post(postUrl).send({
       url: exampleUrl
     });
+
+    console.log('Response after POST:', res.body);
 
     expect(res.status).toBe(HTTP_STATUS.CREATED);
     expect(res.body.data).toHaveProperty('_id');
@@ -135,12 +139,13 @@ describe('GET /urls/:id', () => {
 describe('PUT /urls/:id', () => {
   const factory = new TestFactory();
 
-  beforeEach((done) => {
-    factory.init().then(done);
+  beforeEach(async () => {
+    await factory.init();
+    await Url.deleteMany({});
   });
 
-  afterEach((done) => {
-    factory.close().then(done);
+  afterEach(async () => {
+    await factory.close();
   });
 
   it('should update a single url', async () => {
@@ -209,12 +214,13 @@ describe('PUT /urls/:id', () => {
 describe('DELETE /urls/:id', () => {
   const factory = new TestFactory();
 
-  beforeEach((done) => {
-    factory.init().then(done);
+  beforeEach(async () => {
+    await factory.init();
+    await Url.deleteMany({});
   });
 
-  afterEach((done) => {
-    factory.close().then(done);
+  afterEach(async () => {
+    await factory.close();
   });
 
   it('should delete a single url', async () => {

@@ -1153,3 +1153,92 @@
 [2025-02-18 11:42:11.782 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
 [2025-02-18 11:42:39.069 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
 [2025-02-18 11:43:42.063 AM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-18 10:59:33.318 AM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2025-02-18 10:59:33.347 AM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2025-02-18 12:10:43.940 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-18 12:11:59.387 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 07:30:52.328 PM] [32minfo[39m: [32mDatabase Connected Successfully[39m
+[2025-02-24 07:30:52.342 PM] [32minfo[39m: [32mServer is started at port: http://localhost:8080[39m
+[2025-02-24 09:17:52.728 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:19:02.497 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:19:55.774 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:20:31.356 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:20:45.025 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:21:33.265 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:22:08.665 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:22:20.168 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:22:32.692 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:22:58.368 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:23:19.837 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:23:45.976 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:23:55.156 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:23:58.063 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:24:10.270 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:24:14.623 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:24:14.644 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:24:31.797 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:24:50.754 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:24:59.097 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:27:29.864 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:27:39.795 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:29:09.111 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:29:21.038 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:31:13.738 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:31:21.842 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:31:40.649 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:31:47.232 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:38:09.175 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:47:24.847 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:48:02.862 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:48:14.886 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:48:56.060 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:49:22.373 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:49:30.063 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:50:00.911 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:50:08.121 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:52:09.025 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:52:28.428 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:52:44.198 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:52:59.687 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:53:07.083 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:53:12.143 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:53:39.815 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:53:45.141 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 09:57:10.636 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 09:57:19.867 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:00:12.402 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:00:22.665 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:03:08.058 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:03:17.036 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:03:37.179 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:03:43.674 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:03:55.554 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:04:05.388 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:10:10.725 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:10:20.389 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:12:34.455 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:12:50.740 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:12:59.503 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:13:17.052 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:13:24.524 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:14:30.592 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:14:40.461 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:14:45.288 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:14:53.982 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:15:48.798 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:15:55.031 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:17:24.881 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:18:22.725 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:18:35.703 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:18:44.758 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:18:54.028 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:19:11.228 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:19:19.197 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:19:54.722 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:20:04.590 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:20:21.499 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:20:29.206 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:20:44.352 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:20:53.060 PM] [31merror[39m: [31mNo Url found![39m
+[2025-02-24 10:21:07.743 PM] [32minfo[39m: [32mContainer not found, skipping removal.[39m
+[2025-02-24 10:21:15.541 PM] [31merror[39m: [31mNo Url found![39m
